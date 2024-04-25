@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-shadow: 0 0 20px rgba(36, 36, 36, 0.7);
+}
+
+main {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/****** LAYOUT ******/
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/****** CRYPTO ******/
+div#crypto {
+    font-size: 1.3rem;
+}
+
+div#crypto > p {
+    margin: 0;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+/****** TIME ******/
+h1.time {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: -40px;
+}
+
+/****** WEATHER ******/
+.weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+.weather img {
+    width: 70px;
+}
+
+p.weather-temp {
+    margin: 0 0 0 -10px;
+    font-size: 1.7rem;
+}
+
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: -10px 0 0;
+    font-size: 1.2rem;
+}
+
+/****** AUTHOR ******/
+p#author {
+    font-size: 1rem;
+}
